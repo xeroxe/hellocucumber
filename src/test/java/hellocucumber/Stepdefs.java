@@ -15,7 +15,7 @@ public class Stepdefs {
     }
 
     @Given("^today is Friday$")
-    public void today_is_Friday() throws Exception {
+    public void today_is_Friday() {
         this.today = "Friday";
     }
 
